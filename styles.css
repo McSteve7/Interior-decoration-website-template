@@ -1,0 +1,141 @@
+body{
+    background: url(images/dark-living-room-theme.jpg);
+    overflow: hidden;
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(116, 75, 22);
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+} 
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-top: 1px gray solid;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.side-nav a:hover{
+    background: gray;
+    color: white;
+}
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main{
+    transition: margin-left 0.5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.navbar a{
+    overflow: hidden;
+    display: block;
+    float: left;
+    text-align:center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul{
+    margin: 8px 0 0 0;
+    list-style: none;
+    display: flex;
+    }
+    .navbar a:hover{
+        background-color: wheat;
+        color: black;
+    }
+    
+    .container{
+        width: 600px;
+        height: 400px;
+        margin: 100px auto;
+        background: lightgray;
+        opacity:0.5;
+        position: relative;
+      }
+      .container h3{
+          margin: 0;
+          padding: 0;
+          font-size: 50px;
+          text-align: center;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          font-weight: bolder;
+      }
+      .container p{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .container button{
+        margin-top: 40%;
+        margin-left: 40%;
+        background: rgb(56, 54, 54);
+        font-size: 20px;
+        height: 50px;
+        color: white;
+        border: 2px solid rgb(116, 75, 22);
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .container button:hover{
+        background: lightgray;
+        color: black;
+        opacity: 1;
+    }
+    .open-slide{
+        display: none;
+    }
+    
+
+@media (max-width: 320px){
+    body{
+        background: url(images/15-Beautiful-Modern-Living-Rooms-Your-Home-Desperately-Needs-Ideas-From-1.jpg) no-repeat center content-box;
+        overflow: hidden;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #logo-image{
+        text-align: center;
+    }
+
+    .open-slide{
+        display: flex;
+    }
+@media (min-width: 1024px){
+   span{
+       display: none;
+   }
+}
+}
