@@ -1,5 +1,5 @@
 body{
-    background: url(in/dark-living-room-theme.jpg);
+    background: url(images/dark-living-room-theme.jpg);
     overflow: hidden;
 }
 .side-nav{
@@ -120,7 +120,7 @@ body{
 
 @media (max-width: 320px){
     body{
-        background: url(in/15-Beautiful-Modern-Living-Rooms-Your-Home-Desperately-Needs-Ideas-From-1.jpg) no-repeat center content-box;
+        background: url(images/15-Beautiful-Modern-Living-Rooms-Your-Home-Desperately-Needs-Ideas-From-1.jpg) no-repeat center content-box;
         overflow: hidden;
     }
     .navbar ul{
